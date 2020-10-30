@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#    Copyright 2017 Vitor Aires Pereira <vapereira@criticalsoftware.com>
+#    Copyright 2020 zaplibrary for Python 3.8.>
 
 
 """
@@ -15,7 +15,7 @@ from selenium import webdriver
 from zapv2 import ZAPv2
 
 
-class zapLibrary(object):
+class ZapLibrary(object):
     """
         Library for running ZAP  messages.
 
@@ -76,16 +76,6 @@ class zapLibrary(object):
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
 
     def __init__(self, apikey, proxy):
-        """ZAP Library can be imported with 2 argument.
-        Arguments:
-        - ``apikey ``: API key is required by default in order to invoke any of the API operations.
-        This is a security feature to prevent malicious sites from invoking the ZAP API. Can be retrieved/removed
-        in OWASP ZAP bym accessing *Tools> API*.
-        - ``proxy ``: URL where ZAP is listening, in this format http://<host>:<port>
-        Examples:
-        | = Keyword Definition =  | = Description =       |
-        | Library `|` ZapLibrary | apikey | proxy|
-        """
         self.zap = ZAPv2(apikey=apikey, proxies={'http': proxy, 'https': proxy})
 
     # Create a new Session
