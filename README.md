@@ -81,9 +81,14 @@ Shutdown ZAP
 
 -----------------------
 
+HTML report: is  http://localhost:8080/UI/core/other/xmlreport/ !!
+check
+https://renouncedthoughts.wordpress.com/2015/01/13/owasp-zap-workaround-html-report-from-apis-daemon-mode/
+
 ### Who do I talk to?
 
 * Vitor Aires // airesv@gmail.com
+* Valentijn // https://twitter.com/testensoftware
 
 ### Todo
 * Beta testing;
