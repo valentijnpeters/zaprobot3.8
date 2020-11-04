@@ -88,7 +88,7 @@ https://renouncedthoughts.wordpress.com/2015/01/13/owasp-zap-workaround-html-rep
 ### Who do I talk to?
 
 * Vitor Aires // airesv@gmail.com
-* Valentijn // https://twitter.com/testensoftware
+(this github version: * Valentijn // https://twitter.com/testensoftware )
 
 ### Todo
 * Beta testing;
